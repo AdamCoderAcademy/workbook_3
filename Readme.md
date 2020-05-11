@@ -1,4 +1,9 @@
 <h1> Q1.	Provide an overview and description of a standard source control process for a large project</h1>
+Source Control of a large project involves the management of changes to documents, computer programs, large web sites, and other collections of information. Changes will usually be identified by a number or letter code, termed the "revision number", "revision level", or simply "revision". For example, an initial set of files might be called "revision 1". When the first change is made, the resulting set might then be called "revision 1.1", another change is made at it's then "revision 1.2.1" and so on. Each revision is associated with a timestamp and the person making the change. Revisions can be compared, restored, and with some types of files, merged. 
+
+Source Control is the best way to keep track of your code and allows developers to branch off on their own full knowing that if there are major flaws in the latest code it can easily be rerolled back to a more stable version number.
+
+Resource - https://en.wikipedia.org/wiki/Version_control
 
 <h1>Q2.	What are the most important aspects of quality software?</h1>
 
