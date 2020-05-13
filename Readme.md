@@ -10,41 +10,48 @@ Resource - https://en.wikipedia.org/wiki/Version_control
 
 The most important aspects of quality software is that it should be 
 
-- Reliable
+Reliable
 
-Software is reliable when it behaves consistently. Errors should occur rarely or preferably not at all. Errors that do occur should be handled gracefully and proactively.
+- Software is reliable when it behaves consistently. Errors should occur rarely or preferably not at all. Errors that do occur should be handled gracefully and proactively.
 
-- Easy to understand
+Easy to understand
 
-The structure, components, and source code must be understandable and well-organized. They should behave the way a developer would expect. High-quality source code should always be easy to read.
+- The structure, components, and source code must be understandable and well-organized. They should behave the way a developer would expect. High-quality source code should always be easy to read.
 
-- Easy to modify
+Easy to modify
 
-It should be easy to Create, Read, Update or Delete the code within the software ;-). 
+- It should be easy to Create, Read, Update or Delete the code within the software ;-). 
 
-- Easy to use
+Easy to use
 
-Software products should be simple and easy to use. Users should feel comfortable with the software interface.
+- Software products should be simple and easy to use. Users should feel comfortable with the software interface.
 
-- Efficient
+Efficient
 
-Software is efficient when it uses as few physical resources as possible. It should utilize the system hardware available as effectively as possible.
+- Software is efficient when it uses as few physical resources as possible. It should utilize the system hardware available as effectively as possible.
 
-- Good Testability 
+Good Testability 
 
-The functionality of software should be verifiable, concise and clear.Testing the software should offer clear verification. This also makes debugging is as easy as possible. 
+- The functionality of software should be verifiable, concise and clear.Testing the software should offer clear verification. This also makes debugging is as easy as possible. 
 
-- Portable
+Portable
 
-Portable software is able to be run on multiple different systems, using multiple different types of hardware or operating systems.
+-  Portable software is able to be run on multiple different systems, using multiple different types of hardware or operating systems.
 
-- Secure
+Secure
 
-Lastly it is very important that above all the software is secure for all parties intending on using it.
+- Lastly it is very important that above all the software is secure for all parties intending on using it.
 
 <h1>Q3.	Outline a standard high level structure for a MERN stack application and explain the components</h1>
 
 <h1>Q4.	A team is about to engage in a project, developing a website for a small business. What knowledge and skills would they need in order to develop the project?</h1>
+
+- The team would need to know as much information about the small business, client and clientele as possible so that the website can reflect information accurately. 
+- They need to know the clients expectations and goals and decide if it is an appropriate project in terms of difficulty as well as to take into consideration if it is profitable in some way.
+- They will want to appoint a Project Manager that the rest of the team trust to run the project without issues.
+- Outline their own goals with the website
+- Set an approximate timeline for tasks to be completed along the way and check for dead line dates that must be met.
+- They will need to be capable of both front and back end coding preferably using a "full-stack" such as MERN.
 
 <h1>Q5.	With reference to one of your own projects, discuss what knowledge or skills were required to complete your project, and to overcome challenges</h1>
 
