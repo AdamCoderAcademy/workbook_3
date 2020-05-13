@@ -1,4 +1,5 @@
 <h1> Q1.	Provide an overview and description of a standard source control process for a large project</h1>
+
 Source Control of a large project involves the management of changes to documents, computer programs, large web sites, and other collections of information. Changes will usually be identified by a number or letter code, termed the "revision number", "revision level", or simply "revision". For example, an initial set of files might be called "revision 1". When the first change is made, the resulting set might then be called "revision 1.1", another change is made at it's then "revision 1.2.1" and so on. Each revision is associated with a timestamp and the person making the change. Revisions can be compared, restored, and with some types of files, merged. 
 
 Source Control is the best way to keep track of your code and allows developers to branch off on their own full knowing that if there are major flaws in the latest code it can easily be rerolled back to a more stable version number.
@@ -6,6 +7,40 @@ Source Control is the best way to keep track of your code and allows developers 
 Resource - https://en.wikipedia.org/wiki/Version_control
 
 <h1>Q2.	What are the most important aspects of quality software?</h1>
+
+The most important aspects of quality software is that it should be 
+
+- Reliable
+
+Software is reliable when it behaves consistently. Errors should occur rarely or preferably not at all. Errors that do occur should be handled gracefully and proactively.
+
+- Easy to understand
+
+The structure, components, and source code must be understandable and well-organized. They should behave the way a developer would expect. High-quality source code should always be easy to read.
+
+- Easy to modify
+
+It should be easy to Create, Read, Update or Delete the code within the software ;-). 
+
+- Easy to use
+
+Software products should be simple and easy to use. Users should feel comfortable with the software interface.
+
+- Efficient
+
+Software is efficient when it uses as few physical resources as possible. It should utilize the system hardware available as effectively as possible.
+
+- Good Testability 
+
+The functionality of software should be verifiable, concise and clear.Testing the software should offer clear verification. This also makes debugging is as easy as possible. 
+
+- Portable
+
+Portable software is able to be run on multiple different systems, using multiple different types of hardware or operating systems.
+
+- Secure
+
+Lastly it is very important that above all the software is secure for all parties intending on using it.
 
 <h1>Q3.	Outline a standard high level structure for a MERN stack application and explain the components</h1>
 
