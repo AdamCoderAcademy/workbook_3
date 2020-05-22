@@ -58,13 +58,13 @@ Secure
 
 In reference to my last project, the 2 way market place, I had many challenges along the way. One of the harder parts for me was the routing requests and it was very challenging to have all the paths correct and pointing to the correct pages. After several routes are added it feels like things start becoming tangled like a web. Having to remember the correct locations where code should be sitting and in which file in order to function as intended. 
 
-To overcome my challenges I would simply go back to the correct day's lesson and then make sure to follow along step by step for that particular task that needed to be completed. I found it's best for me to try tackle one task at a time to avoid my own confusion. To complete the project it was necessary to be comfortable with Ruby on rails, CSS, HTML, AMAZON S3 image storage, Authentication with Devise, Rails Routing, Database relations (many to many etc) as well as needing to implement stripe as a payment gateway. Postgresql was used for this projects database storage and Heroku was used to deploy the site.
+To overcome my challenges I would simply go back to the correct day's lesson and then make sure to follow along step by step for that particular task that needed to be completed. I found it's best for me to try tackle one step at a time to avoid my own confusion. To complete the project it was necessary to be comfortable with Ruby on rails, CSS, HTML, AMAZON S3 image storage, Authentication with Devise, Rails Routing, Database relations (many to many etc) as well as needing to implement stripe as a payment gateway. Postgresql was used for this projects database storage and Heroku was used to deploy the site.
 
 <h1>Q6.	With reference to one of your own projects, evaluate how effective your knowledge and skills were for this project, and suggest changes or improvements for future projects of a similar nature</h1>
 
 I will make reference again to the my 2 way Market Place app. I had a lot of doubt in myself with this project especially with the back end routes. However with little help and the previous course content I was able to have the website up and running without any major issue. I remembered to push to heroku often to test the live website instead of only locally and my experience with Git this time around was a big improvement. I feel much more comfortable with Front end than I do with Backend.
 
-Changes and improvements for me at this point is to just keep at it don't stop. I need to stop feeling intimidated from big code. I need to learn how to break tasks down individually even smaller if need too and I need to be more strict with my time dedicated to studies. 
+Changes and improvements for me at this point is to just keep at it don't stop. I need to stop feeling intimidated from big code. I need to learn how to break tasks down individually even smaller if I need too and I need to be more strict with my time dedicated to studies. I should focus on repeating topics over and over so that it sticks permanently.
 
 <h1>Q7.	Explain control flow, using an example from the JavaScript programming language</h1>
 
@@ -72,11 +72,35 @@ Changes and improvements for me at this point is to just keep at it don't stop. 
 
 <h1>Q9.	Explain data types, using examples from the JavaScript programming language</h1>
 
+JavaScript data types are powerful tools used to provide functionality within your code.
+
+- Boolean 
+  - A boolean is a conditional data type that can only have true or false values. These values will be often used to execute sections of code in a certain order if at all.
+
+``` 
+let yourGuess = false;
+const number = 1;
+const guess = prompt('Guess a number between 1 and 10.');
+
+if ( +guess === number ) {
+  yourGuess = true; 
+}
+
+if ( yourGuess ) {
+  alert('You guessed the number!');
+} 
+else {
+  alert(`Sorry. The number was ${number}.`);
+}
+```
+
 <h1>Q10. Explain how arrays can be manipulated in JavaScript, using examples from the JavaScript programming language</h1>
 
 <h1>Q11. Explain how objects can be manipulated in JavaScript, using examples from the JavaScript programming language</h1>
 
 <h1>Q12. Explain how JSON can be manipulated in JavaScript, using examples from the JavaScript programming language</h1>
+
+JSON.parse and JSON.stringify
 
 <h1>Q13. For the code snippet provided below, write comments for each line of code to explain its functionality. In your comments you must demonstrates your ability to recognise and identify functions, ranges and classes</h1>
 
