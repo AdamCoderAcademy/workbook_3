@@ -68,6 +68,26 @@ Changes and improvements for me at this point is to just keep at it don't stop. 
 
 <h1>Q7.	Explain control flow, using an example from the JavaScript programming language</h1>
 
+When we talk about control flow in any programming language we are talking about the way in which the order of code can execute or be manipulated.
+
+```
+let adamAge = false;
+const age = 31;
+const guess = prompt('How old was Adam when he passed workbook3 ?');
+
+if ( +guess === age ) {
+  adamAge = true;
+}
+
+if ( adamAge === true ) {
+  console.log("Yes I got a pass at the magical confusing age of 31")
+} else {
+console.log("I'm sorry but that's not how old I was")
+}
+```
+With my above code example depending on if you have guessed correctly or not depends on which line of code will execute. The answer manipulates or controls the "flow" of the code.
+
+
 <h1>Q8.	Explain type coercion, using examples from the JavaScript programming language</h1>
 
 Type coercion is when values convert from one data type to another like a string to number.
