@@ -94,6 +94,72 @@ else {
 }
 ```
 
+- Undefined
+  - A variable without any value has the value of undefined
+
+  ```
+  workbook3 = undefined;
+  ```
+
+- Null
+  - The data type of null is actually an object despite being nothing. Below workbook3 would then be assigned the value null
+
+  ```
+  var workbook3 = {
+    name:"workbook3",
+    completed:"yes"
+  };
+
+  workbook3 = null;
+  ```
+
+  - Numbers
+    - This is an integer or floating point number
+
+    ```
+    3 - 777.77 = 774.77
+    ```
+- String
+  - Like other programming languages a string is a sequence of characters used to represent data stored in a text form.
+
+  ```
+  const string1 = 'Would you like a string';
+  const string2 = 'Maybe another string?';
+  const string3 = 'Workbook 4, let's have some more';
+  ```
+
+- BigInt
+  - BigInt is an object that provides a way to represent whole numbers larger than 253 - 1, which is the largest number JavaScript can reliably represent using the numbers datatype.
+
+  ```
+  const theBiggestInt = 9007199254740991n
+  ```
+
+- Symbol
+  - After creating a symbol its value is stored privately for internal use
+
+  ```
+  console.log(Symbol()) //Symbol()
+  console.log(Symbol('Some Test')) //Symbol(Some Test)
+
+  (this is a direct copy paste from https://flaviocopes.com/javascript-symbols/ for my example as I wasn't able to offer my own example)
+  ```
+
+- Object
+  - When you create an object you are storing data about that object inside a container.
+
+  ```
+  var workbook = {
+    revisionName: "3",
+    dayDue: 31,
+    monthDue: "May"
+  };
+
+References - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_Types and https://www.w3schools.com/js/js_datatypes.asp
+
+
+
+
 <h1>Q10. Explain how arrays can be manipulated in JavaScript, using examples from the JavaScript programming language</h1>
 
 <h1>Q11. Explain how objects can be manipulated in JavaScript, using examples from the JavaScript programming language</h1>
