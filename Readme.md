@@ -70,6 +70,26 @@ Changes and improvements for me at this point is to just keep at it don't stop. 
 
 <h1>Q8.	Explain type coercion, using examples from the JavaScript programming language</h1>
 
+Type coercion is when values convert from one data type to another like a string to number.
+
+```
+true + false
+``` 
+
+If you open terminal and start node. Simply typing true + false (both of these are booleans) will return a 1 (number) and has now converted its data type to a number
+
+another example would be
+```
+1 + 2 + 3 = 6
+```
+but if change say the 2 into a string
+
+```
+1 + '2' + 3 = '123'
+```
+Even though I still use 2 data types that are numbers they have now being coerced or converted into a string as the final data type.
+
+
 <h1>Q9.	Explain data types, using examples from the JavaScript programming language</h1>
 
 JavaScript data types are powerful tools used to provide functionality within your code.
