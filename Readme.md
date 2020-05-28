@@ -185,7 +185,7 @@ else {
   (this is a direct copy paste from https://flaviocopes.com/javascript-symbols/ for my example as I wasn't able to offer my own example)
   ```
 
-- Object
+- Objects
   - When you create an object you are storing data about that object inside a container.
 
   ```
@@ -197,16 +197,66 @@ else {
 
 References - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_Types and https://www.w3schools.com/js/js_datatypes.asp
 
-
-
-
 <h1>Q10. Explain how arrays can be manipulated in JavaScript, using examples from the JavaScript programming language</h1>
 
 <h1>Q11. Explain how objects can be manipulated in JavaScript, using examples from the JavaScript programming language</h1>
 
 <h1>Q12. Explain how JSON can be manipulated in JavaScript, using examples from the JavaScript programming language</h1>
 
-JSON.parse and JSON.stringify
+JSON data can be directly manipulated in javascript by using parse or stringify. Stringify converts JavaScript objects into strings. The JSON.parse() method can then parse that string and return a JavaScript object.
+
+Example of JSON  parse.
+
+```
+<html>
+<body>
+
+<h1>Did Adam pass workbook 3?</h1>
+
+<p id="answer"></p>
+
+<script>
+var obj = JSON.parse('{"hePassed":"Yes", "noPass":"No"}');
+
+document.getElementById("answer").innerHTML = obj.hePassed;
+</script>
+
+</body>
+</html>
+```
+
+results in 
+
+```
+Did Adam pass workbook 3?
+Yes
+```
+
+
+Example of JSON.stringify.
+
+```
+<html>
+<body>
+
+<p id="mystring"></p>
+
+<script>
+var obj = { "name":"Adam", "age":31, "pass workbook 3":"Yes"};
+var myJSON = JSON.stringify(obj);
+document.getElementById("mystring").innerHTML = myJSON;
+</script>
+
+</body>
+</html>
+```
+Which will output this result 
+```
+{"name":"Adam","age":31,"pass workbook 3":"Yes"}
+```
+
+
+Reference - https://www.w3schools.com/jsref/jsref_parse_json.asp
 
 <h1>Q13. For the code snippet provided below, write comments for each line of code to explain its functionality. In your comments you must demonstrates your ability to recognise and identify functions, ranges and classes</h1>
 
