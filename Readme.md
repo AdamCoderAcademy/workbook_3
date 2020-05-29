@@ -51,7 +51,7 @@ Secure
 - They will want to appoint someone as a Project Manager/Team Leader as well as allocate tasks to other team members based on skills, experience and strength.
 - Outline their own goals with the website
 - Set an approximate timeline for tasks to be completed along the way and check for dead line dates that must be met.
-- They will need to be capable of both front and back end preferably using a "full-stack" such as MERN.
+- They will need to be capable of both front and back end preferably using a full-stack such as MERN.
 - They will also need to be experienced in testing, debugging and deployment for the project to run smoothly.
 
 <h1>Q5.	With reference to one of your own projects, discuss what knowledge or skills were required to complete your project, and to overcome challenges</h1>
@@ -62,9 +62,9 @@ To overcome my challenges I would simply go back to the correct day's lesson and
 
 <h1>Q6.	With reference to one of your own projects, evaluate how effective your knowledge and skills were for this project, and suggest changes or improvements for future projects of a similar nature</h1>
 
-I will make reference again to the my 2 way Market Place app. I had a lot of doubt in myself with this project especially with the back end routes. However with little help and the previous course content I was able to have the website up and running without any major issue. I remembered to push to heroku often to test the live website instead of only locally and my experience with Git this time around was a big improvement. I feel much more comfortable with Front end than I do with Backend.
+I will make reference again to the my 2 way Market Place app. I had a lot of doubt in myself with this project especially with the back end routes. However with little help and the previous course content I was able to have the website up and running without any major issue. I remembered to push to heroku often to test the live website instead of only locally and my experience with Git this time around was a big improvement. I feel much more comfortable with Front end than I do with Backend at the moment.
 
-Changes and improvements for me at this point is to just keep at it don't stop. I need to stop feeling intimidated from big code. I need to learn how to break tasks down individually even smaller if I need too and I need to be more strict with my time dedicated to studies. I should focus on repeating topics over and over so that it sticks permanently.
+Changes and improvements for me at this point is to just keep at it don't stop. I need to stop feeling intimidated from big code. I need to learn how to break tasks down individually even smaller if I need too and I need to be more strict with my time dedicated to studies. I should focus on repeating topics over to help retain that information. I must ensure pre planning such as mood boards, EDR, user stories etc are filled 
 
 <h1>Q7.	Explain control flow, using an example from the JavaScript programming language</h1>
 
@@ -198,6 +198,202 @@ else {
 References - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_Types and https://www.w3schools.com/js/js_datatypes.asp
 
 <h1>Q10. Explain how arrays can be manipulated in JavaScript, using examples from the JavaScript programming language</h1>
+
+The Javascript language has many ways to manipulate code with examples as following.
+
+- Array to string
+
+In Javascript we can convert arrays into strings like this 
+ ```
+ <html>
+<body>
+
+<h1>How many workbooks are there ?</h1>
+
+<p id="workbook"></p>
+
+<script>
+var workbookNumber = ["Workbook 1", "Workbook 2", "Workbook 3"];
+document.getElementById("workbook").innerHTML = workbookNumber.toString();
+</script>
+
+</body>
+</html>
+```
+The result looks like this and we now get back a string.
+
+```
+How many workbooks are there ?
+
+Workbook 1,Workbook 2,Workbook 3
+```
+
+- Pop
+  - You can pop off the last element inside an array using the method
+  ```
+  pop()
+  ```
+  Below is an example of pop()
+```
+<html>
+<body>
+
+<h2>Where has workbook 3 gone ?</h2>
+
+<p id="workbook"></p>
+
+<script>
+var workbookNumber = ["Workbook 1", "Workbook 2", "Workbook 3"];
+document.getElementById("workbook").innerHTML = workbookNumber;
+workbookNumber.pop();
+document.getElementById("workbook").innerHTML = workbookNumber;
+</script>
+
+</body>
+</html>
+```
+
+This gives us the result 
+```
+Where has workbook 3 gone ?
+
+Workbook 1,Workbook 2
+```
+
+- Push
+  - You can push in an element to the last position inside of an array
+
+  ```
+  Push()
+  ```
+
+Lets see an example 
+```
+<html>
+<body>
+
+<h2>I see another workbook in your future</h2> 
+
+<p id="workbook"></p>
+
+<script>
+var workbookNumber = ["Workbook 1", "Workbook 2", "Workbook 3"];
+document.getElementById("workbook").innerHTML = workbookNumber;
+workbookNumber.push("Workbook 4");
+document.getElementById("workbook").innerHTML = workbookNumber;
+</script>
+
+</body>
+</html>
+```
+This gives us the result 
+
+```
+I see another workbook in your future
+
+Workbook 1,Workbook 2,Workbook 3,Workbook 4
+```
+
+- Shift
+  - Shifting is the same as popping only working in reverse by removing the first item in the array rather than the last 
+
+```
+shift()
+```
+
+An example below
+
+```
+<html>
+<body>
+
+<h2>Goodbye Workbook 1</h2> 
+
+<p id="workbookNumber"></p>
+
+<script>
+var workbookNumber = ["Workbook 1", "Workbook 2", "Workbook 3"];
+document.getElementById("workbookNumber").innerHTML = workbookNumber;
+workbookNumber.shift();
+document.getElementById("workbookNumber").innerHTML = workbookNumber;
+</script>
+
+</body>
+</html>
+```
+The end result removes Workbook 1 like this 
+```
+Goodbye Workbook 1
+
+Workbook 2,Workbook 3
+```
+- Unshift
+  - Unshift adds a new element to the start of your array
+
+  ```
+  unshift()
+  ```
+
+  Below is an example of how unshift works
+
+```
+<html>
+<body>
+
+<h2>Who was the original workbook ?</h2> 
+
+<p id="workbook"></p>
+
+<script>
+var workbookNumber = ["Workbook 1", "Workbook 2", "Workbook 3"];
+document.getElementById("workbook").innerHTML = workbookNumber;
+workbookNumber.unshift("Workbook 0");
+document.getElementById("workbook").innerHTML = workbookNumber[0];
+</script>
+
+</body>
+</html>
+```
+
+The end result would look like this 
+```
+Who was the original workbook ?
+
+Workbook 0
+```
+- Delete
+  - delete allows you to change elements value to undefined
+
+For example
+```
+<html>
+<body>
+
+<h2>When Workbook 0 is pushed into the array with unshift(), Workbook 2 then ends up in position 2 within the array. That is why we end up with 0, 1 and 3. Workbook 2 is already deleted when it displays to the screen. If I did delete workbook with out specifying the array index than nothing would display because all of it would be deleted and not just the index specified</h2> 
+
+<p id="workbook"></p>
+
+<script>
+var workbookNumber = ["Workbook 1", "Workbook 2", "Workbook 3"];
+document.getElementById("workbook").innerHTML = workbookNumber;
+workbookNumber.unshift("Workbook 0");
+document.getElementById("workbook").innerHTML = workbookNumber;
+delete workbookNumber[2];
+document.getElementById("workbook").innerHTML = workbookNumber;
+</script>
+
+</body>
+</html>
+```
+
+The result of this code looks like this 
+```
+When Workbook 0 is pushed into the array with unshift(), Workbook 2 then ends up in position 2 within the array. That is why we end up with 0, 1 and 3. Workbook 2 is already deleted when it displays to the screen. If I did delete workbook with out specifying the array index than nothing would display because all of it would be deleted and not just the index specified
+
+Workbook 0,Workbook 1,,Workbook 3
+```
+
+The element Workbook 2 within the array is now classed as undefined.
 
 <h1>Q11. Explain how objects can be manipulated in JavaScript, using examples from the JavaScript programming language</h1>
 
