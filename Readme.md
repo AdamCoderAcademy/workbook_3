@@ -44,6 +44,27 @@ Secure
 
 <h1>Q3.	Outline a standard high level structure for a MERN stack application and explain the components</h1>
 
+- Mongo 
+  - MongoDb is a document based database program. Classified as a NoSQL non relational database program that uses JSON-like documents. Instead of using tables and rows like a traditional relational database it uses collections and documents.
+
+  Reference - https://www.guru99.com/what-is-mongodb.html
+
+- Express
+  - Express.js is a free and open source back end framework that has been often called the standardised framework for Node.js. Express is well known for speed and reliability.
+
+  Reference - https://en.wikipedia.org/wiki/Express.js
+
+- React
+  - React was created by Facebook and is an open source component-based front end JavaScript library used for building user interfaces (The views). It has grown to be very popular.
+
+  Reference - https://www.edureka.co/blog/what-is-react/#3
+
+- Node.js
+  - Node.js is a cross platform JavaScript runtime environment. Node is built on Google Chrome's JavaScript Engine (V8 Engine) and is open source.
+
+  Reference - https://www.tutorialspoint.com/nodejs/nodejs_introduction.htm
+
+
 <h1>Q4.	A team is about to engage in a project, developing a website for a small business. What knowledge and skills would they need in order to develop the project?</h1>
 
 - The team would need to know as much information about the small business, client and clientele as possible so that the website can reflect information accurately. 
