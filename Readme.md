@@ -479,38 +479,40 @@ Reference - https://www.w3schools.com/jsref/jsref_parse_json.asp
 
 <h1>Q13. Code Snippet</h1>
 
-class Car {
-  constructor(brand) {
-    this.carname = brand;
-  }
-  present() {
-    return 'I have a ' + this.carname;
-  }
-}
+```
 
-class Model extends Car {
-  constructor(brand, mod) {
+class Car { // Initialize a class called 'Car'
+  constructor(brand) { // Initialize a constructor with the argument 'brand'
+    this.carname = brand; // 'brand' is the parameter being added
+  }
+  present() { // Initialize class 'present'
+    return 'I have a ' + this.carname; // returns 'I have a' and the value of 'this.carname'.
+  } // end of 'present' function
+} // end of 'car' class
+
+class Model extends Car { // Initialize a class called 'Model' this will inherit from the 'Car' class
+  constructor(brand, mod) { // Initialize a constructor with both 'brand' and 'mod'
     super(brand);
     this.model = mod;
   }
-  show() {
+  show() { // Initialize 'show' class
     return this.present() + ', it was made in ' + this.model;
-  }
-}
+  } // end of 'show'
+} // end of 'Model' class 
 
-let makes = ["Ford", "Holden", "Toyota"]
-let models = Array.from(new Array(40), (x,i) => i + 1980)
+let makes = ["Ford", "Holden", "Toyota"] // Creates an array with "Ford", "Holden", "Toyota" that is assigned to 'makes' 
+let models = Array.from(new Array(40), (x,i) => i + 1980) // creates an array with 40 elements for cars from 1980
 
-function randomIntFromInterval(min,max) { // min and max included
-    return Math.floor(Math.random()*(max-min+1)+min);
-}
+function randomIntFromInterval(min,max) { // initialize a function called 'randomIntFromInterval' with 'min' and 'max' included as parameters
+    return Math.floor(Math.random()*(max-min+1)+min); // ? returning a random number ?
+} // end of the 'randomIntFromInterval' function
 
-for (model of models) {
+for (model of models) { // initialized a 'for' loop
 
-  make = makes[randomIntFromInterval(0,makes.length-1)]
-  model = models[randomIntFromInterval(0,makes.length-1)]
+  make = makes[randomIntFromInterval(0,makes.length-1)] // stores this information into a 'makes' array
+  model = models[randomIntFromInterval(0,makes.length-1)] // Stores this information into a 'model' array 
     
-  mycar = new Model(make, model);
-  console.log(mycar.show())
-}
-
+  mycar = new Model(make, model); // Storing all of the above information into 'mycar'
+  console.log(mycar.show()) //printing all the data using the show method from 'mycar'
+} // end of the 'for' loop
+```
