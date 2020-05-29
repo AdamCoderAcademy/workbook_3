@@ -48,11 +48,11 @@ Secure
 
 - The team would need to know as much information about the small business, client and clientele as possible so that the website can reflect information accurately. 
 - They need to know the clients expectations and goals and decide if it is an appropriate project in terms of difficulty as well as to take into consideration if it is profitable in some way.
-- They will want to appoint a Project Manager that the rest of the team trust to run the project without issues.
+- They will want to appoint someone as a Project Manager/Team Leader as well as allocate tasks to other team members based on skills, experience and strength.
 - Outline their own goals with the website
 - Set an approximate timeline for tasks to be completed along the way and check for dead line dates that must be met.
-- They will need to be capable of both front and back end coding preferably using a "full-stack" such as MERN.
-- They will need to have the skills to build a website from the ground up, including testing and deployment
+- They will need to be capable of both front and back end preferably using a "full-stack" such as MERN.
+- They will also need to be experienced in testing, debugging and deployment for the project to run smoothly.
 
 <h1>Q5.	With reference to one of your own projects, discuss what knowledge or skills were required to complete your project, and to overcome challenges</h1>
 
