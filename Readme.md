@@ -418,6 +418,104 @@ The element Workbook 2 within the array is now classed as undefined.
 
 <h1>Q11. Explain how objects can be manipulated in JavaScript, using examples from the JavaScript programming language</h1>
 
+- Object.keys()
+  - creates an array containing the keys of an object.
+
+  Example
+  ```
+  const school = {
+    student : 'Adam',
+    gone : 'Naveen',
+    teacher : 'Michael',
+  };
+
+  const keys = Object.keys(school);
+
+  console.log(keys);
+  ```
+
+  This will result in 
+
+  ```
+  ["student", "gone", "teacher"]
+  ```
+- Object.values()
+  - creates an array containing the values of an object.
+
+  Example
+  ```
+  const coderAcademy = {
+    year: '2019',
+    student: 'Adam',
+    assignment: 'Workbook 3'
+  };
+
+  const values = Object.values(coderAcademy);
+
+  console.log(values)
+  ```
+
+  This would result in 
+  ```
+  ["2019", "Adam", "Workbook 3"]
+  ```
+- Object.entries()
+  - creates a nested array of the key/value pairs of an object.
+
+Example
+```
+
+const school = {
+  student : 'Adam',
+  gone : 'Naveen',
+  year : 2020,
+  teacher : 'Michael'
+};
+
+const entries = Object.entries(school);
+
+console.log(entries);
+```
+
+Will result in
+
+```
+["student", "Adam"]
+["gone", "Naveen"]
+["year", 2020]
+["teacher", "Michael"]
+```
+
+- Object.assign()
+  - Object.assign() can be used to combine 2 objects together
+
+For example
+
+```
+const identity = {
+  name: "Adam",
+  school: "Coder"
+};
+
+const grade = {
+  assignment: "Workbook",
+  number: 3,
+  pass: "Yes"
+};
+
+const report = Object.assign(identity, grade);
+
+console.log(report)
+```
+
+And the result will look like this 
+
+```
+
+{name: "Adam", school: "Coder", assignment: "Workbook", number: 3, pass: "Yes"}
+
+```
+
 <h1>Q12. Explain how JSON can be manipulated in JavaScript, using examples from the JavaScript programming language</h1>
 
 JSON data can be directly manipulated in javascript by using parse or stringify. Stringify converts JavaScript objects into strings. The JSON.parse() method can then parse that string and return a JavaScript object.
