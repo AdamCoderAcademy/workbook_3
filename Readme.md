@@ -515,6 +515,11 @@ And the result will look like this
 {name: "Adam", school: "Coder", assignment: "Workbook", number: 3, pass: "Yes"}
 
 ```
+References -
+- https://www.w3schools.com/js/js_object_methods.asp
+- https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics
+- https://www.digitalocean.com/community/tutorials/how-to-use-object-methods-in-javascript
+
 
 <h1>Q12. Explain how JSON can be manipulated in JavaScript, using examples from the JavaScript programming language</h1>
 
